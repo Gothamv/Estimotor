@@ -2,19 +2,19 @@
 
 **Objective** : Predicting used car prices in India.
 
-# Notebook
+## Notebook
 
 * View / Download the notebook [here](https://github.com/Gothamv/usedCarPrices/blob/master/predictingCarPrices.ipynb).
 * Run the Notebook on Kaggle [here](https://www.kaggle.com/gothamv/predictingcarprices).
 
-# Models used
+## Models used
 * Linear Regression
 * Random Forest Regression
 * XGBoost Regression
 * Ridge Regression
 * Lasso Regression
 
-# Dataset Features
+## Dataset Features
 * Name: The brand and model of the car.
 * Location: The location in which the car is being sold or is available for purchase.
 * Year: The year or edition of the model.
@@ -28,7 +28,7 @@
 * Seats: The number of seats in the car.
 * Price: The price of the used car in INR Lakhs.
 
-# File Description
+## File Description
 * [Data_Train.csv](https://github.com/Gothamv/usedCarPrices/blob/master/Data_Train.csv) : Used for training
 * [Data_Test.csv](https://github.com/Gothamv/usedCarPrices/blob/master/Data_Test.csv) : Used for making final predictions
 * [predictions.csv](https://github.com/Gothamv/usedCarPrices/blob/master/predictions.csv) : Contains the predictions made by XGBoost Regressorr which had the best R2 score.
