@@ -1,11 +1,11 @@
 # usedCarPrices
 
-Predicting used car prices in India.
+**Objective** : Predicting used car prices in India.
 
 # Notebook
 
-View/Download the notebook [here](https://github.com/Gothamv/usedCarPrices/blob/master/predictingCarPrices.ipynb). <br>
-Run the Notebook on Kagglee [here](https://www.kaggle.com/gothamv/predictingcarprices).
+* View / Download the notebook [here](https://github.com/Gothamv/usedCarPrices/blob/master/predictingCarPrices.ipynb).
+* Run the Notebook on Kaggle [here](https://www.kaggle.com/gothamv/predictingcarprices).
 
 # Models used
 * Linear Regression
@@ -15,7 +15,6 @@ Run the Notebook on Kagglee [here](https://www.kaggle.com/gothamv/predictingcarp
 * Lasso Regression
 
 # Dataset Features
-
 * Name: The brand and model of the car.
 * Location: The location in which the car is being sold or is available for purchase.
 * Year: The year or edition of the model.
@@ -30,7 +29,6 @@ Run the Notebook on Kagglee [here](https://www.kaggle.com/gothamv/predictingcarp
 * Price: The price of the used car in INR Lakhs.
 
 # File Description
-
-* Data_Train.csv : Used for training
-* Data_Test.csv : Used for making final predictions
-* predictions.csv : Contains the predictions made by XGBoost Regressorr which had the best R2 scorre.
+* [Data_Train.csv](https://github.com/Gothamv/usedCarPrices/blob/master/Data_Train.csv) : Used for training
+* [Data_Test.csv](https://github.com/Gothamv/usedCarPrices/blob/master/Data_Test.csv) : Used for making final predictions
+* [predictions.csv](https://github.com/Gothamv/usedCarPrices/blob/master/predictions.csv) : Contains the predictions made by XGBoost Regressorr which had the best R2 score.
